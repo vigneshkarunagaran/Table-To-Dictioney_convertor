@@ -1,0 +1,14 @@
++-------------------- PORT 3/1 INFO ------------------------------------------+
+| Field                   | Admin                   | Oper                    |
++-------------------------+-------------------------+-------------------------+
+| Description             |                         |                         |
+| Type                    | 10GigEthernet           |                         |
+| Port AID                | ETTP-6-3-1              |                         |
+| Interface OID           | ifIndex.101569          |                         |
+| Link State              | Enabled                 | Enabled                 |
+| ETTP Status             | Enabled                 |                         |
+| Port Status             | Enabled                 |                         |
+| Degrade Detection Status| Disabled                | none                    |
+| Speed                   | 10 Gbps                 | 10 Gbps                 |
+| Duplex                  | full                    | full                    |
++-------------------------+-------------------------+-------------------------+
