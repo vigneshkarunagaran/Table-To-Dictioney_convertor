@@ -1,11 +1,14 @@
 import re
+import sys
 from functools import reduce
 from collections import OrderedDict
 from pprint import  pprint as pp
 from conversionHandler import DataHandler as DATA
 
 #File Handler
-with open("sample_input4.txt", "r") as file_object:
+input_file_dir = sys.argv[1]
+
+with open(input_file_dir, "r") as file_object:
     input = file_object.read()
     content = input.split('\n')
 
