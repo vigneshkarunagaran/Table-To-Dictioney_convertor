@@ -1,19 +1,21 @@
 # Table-To-Dictioney_convertor
 Python script to convert cmd line tables into Dictionary/ List of dictionaries/ OrderedDict using Python
 
-Libs:
+#Libs:
 import re
 import sys
 from functools import reduce
 from collections import OrderedDict
 from pprint import  pprint as pp
 
-Execution:
+#Execution:
+[Activate the virtual env if required]
 python table_to_dict_convertor.py <dir of text file containing cmd line table>
 
-Example:
+#Example:
 python table_to_dict_convertor.py sample_input1.txt
 
+#Report 
 
 Sample_input1.txt
 +---------------------------- Aggregation  State -----------------------------+
