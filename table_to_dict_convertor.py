@@ -6,7 +6,8 @@ from conversionHandler import DataHandler as DATA
 
 #File Handler
 with open("sample_input4.txt", "r") as file_object:
-    content = file_object.read().split('\n')
+    input = file_object.read()
+    content = input.split('\n')
 
 #Retrives Table Title
 ind = re.findall("[a-zA-Z0-9\s]+", content[0])
@@ -55,7 +56,13 @@ for i, data in enumerate(table_data):
     output_dictionery['Row '+str(i)] = dict(zip(header_keys, data))  
     output_ordered_dictionery['Row '+str(i)] = dict(zip(header_keys, data))
 
+
+#Report:
+print(input)
 print(f'Generated Output for {table_title} table')
-# pp(output_list)
+print('\nConverted output >> Dict')
 pp(output_dictionery)
-# pp(output_ordered_dictionery)
+print('\nConverted output >> list of dict')
+pp(output_list)
+print('\nConverted output >> OrderedDict')
+pp(output_ordered_dictionery)
